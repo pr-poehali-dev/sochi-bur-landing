@@ -1,15 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from '@/components/landing/Header';
+import Hero from '@/components/landing/Hero';
+import Advantages from '@/components/landing/Advantages';
+import Services from '@/components/landing/Services';
+import Regions from '@/components/landing/Regions';
+import Access from '@/components/landing/Access';
+import Steps from '@/components/landing/Steps';
+import Prices from '@/components/landing/Prices';
+import Gallery from '@/components/landing/Gallery';
+import Faq from '@/components/landing/Faq';
+import Contact from '@/components/landing/Contact';
+import Footer from '@/components/landing/Footer';
+import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-      <span className="absolute bottom-8 left-1/2 -translate-x-1/2 inline-block bg-[#FF6637] text-white text-sm px-4 py-2 rounded-full whitespace-nowrap">
-        Подождите 5 минут, Юра создает первую версию проекта с нуля
-      </span>
+    <div className="min-h-screen bg-white antialiased">
+      <Header />
+      <main>
+        <Hero />
+        <Advantages />
+        <Services />
+        <Regions />
+        <Access />
+        <Steps />
+        <Prices />
+        <Gallery />
+        <Faq />
+        <Contact />
+      </main>
+      <Footer />
+
+      <a
+        href="https://wa.me/79000000000"
+        target="_blank"
+        rel="noreferrer"
+        className="fixed bottom-5 right-5 z-50 w-14 h-14 rounded-full bg-whatsapp text-white flex items-center justify-center shadow-lg hover:scale-105 transition-transform"
+        aria-label="WhatsApp"
+      >
+        <Icon name="MessageCircle" size={26} />
+      </a>
     </div>
   );
 };
