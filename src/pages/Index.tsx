@@ -2,7 +2,6 @@ import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
 import Advantages from '@/components/landing/Advantages';
 import Services from '@/components/landing/Services';
-import Regions from '@/components/landing/Regions';
 import Access from '@/components/landing/Access';
 import Steps from '@/components/landing/Steps';
 import Prices from '@/components/landing/Prices';
@@ -20,7 +19,6 @@ const Index = () => {
         <Hero />
         <Advantages />
         <Services />
-        <Regions />
         <Access />
         <Steps />
         <Prices />

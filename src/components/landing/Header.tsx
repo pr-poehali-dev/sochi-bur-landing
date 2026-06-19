@@ -4,7 +4,6 @@ import Icon from '@/components/ui/icon';
 const navItems = [
   { label: 'Главная', href: '#hero' },
   { label: 'Услуги', href: '#services' },
-  { label: 'Районы', href: '#regions' },
   { label: 'Доступ', href: '#access' },
   { label: 'Этапы', href: '#steps' },
   { label: 'Цены', href: '#prices' },
